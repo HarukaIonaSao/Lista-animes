@@ -6,8 +6,7 @@
 }
 
 .card{
-    border: 1px dotted #121810;
-    border-radius: 1rem;
+    border: 0.5px dotted var(--border-card);
     display: inline-block; 
     margin: 0.625rem; 
     max-height: 100%;  
@@ -15,14 +14,13 @@
 }
 
 .card-img{
-    border-radius: 1rem;
     display: block;
     height: 18.75rem;
     width: 18.75rem;    
 }
 
 .card-details{
-    border-radius: 1rem;
+    box-shadow: 10px 10px 30px 5px var(--box-shadow);
     display: inline-block;
     height: auto;
     width: 18.75rem;   
@@ -33,12 +31,11 @@
 }
 
 .card-details blockquote{
-    color: #04f504;
+    color: var(--font-q);
     font-style: italic;
 }
 
 .card-details-summary{
-    border-radius: 1rem;
     font-size: 1.125rem;
     padding: 10px;
 }

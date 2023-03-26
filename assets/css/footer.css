@@ -1,0 +1,15 @@
+.footer {
+    background: var(--bg1);
+    color: var(--font-color);
+    height: 2rem;
+    text-align: right;
+    opacity: 0.6;    
+    padding: 1.5rem 2rem;
+    text-transform: lowercase;
+  }
+  
+@media(max-width:768px){
+    .footer{
+        height: 1.5rem;
+    }
+}
